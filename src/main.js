@@ -12,6 +12,7 @@ Vue.use(Vuetify)
 import('./assets/vuetify.min.css')
 
 /* eslint-disable no-new */
+
 new Vue({
   el: '#app',
   router,
