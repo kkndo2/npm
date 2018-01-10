@@ -6,6 +6,11 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+// vuetify 초기화작업
+import Vuetify from 'vuetify'
+Vue.use(Vuetify)
+import('./assets/vuetify.min.css')
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
@@ -13,3 +18,6 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+
+ 
+
